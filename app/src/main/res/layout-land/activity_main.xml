@@ -100,9 +100,9 @@
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/body"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+       android:layout_marginRight="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
 
         <CheckBox
             android:id="@+id/cb_mouth"
@@ -112,8 +112,8 @@
             android:layout_column="0"
             android:onClick="cbMouth"
             android:text="Mouth"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
              />
 
         <CheckBox
@@ -124,8 +124,8 @@
             android:layout_column="0"
             android:onClick="cbArms"
             android:text="Arms"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
             />
 
         <CheckBox
@@ -136,8 +136,8 @@
             android:layout_column="0"
             android:onClick="cbEars"
             android:text="Ears"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
             />
 
         <CheckBox
@@ -148,8 +148,8 @@
             android:layout_column="0"
             android:onClick="cbHat"
             android:text="Hat"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
             />
 
         <CheckBox
@@ -160,8 +160,8 @@
             android:layout_column="0"
             android:onClick="cbEyebrow"
             android:text="Eyebrow"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
             />
 
         <!--        Second columns-->
@@ -174,8 +174,8 @@
             android:layout_column="1"
             android:onClick="cbEye"
             android:text="Eye"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
             />
 
         <CheckBox
@@ -186,8 +186,8 @@
             android:layout_column="1"
             android:onClick="cbGlasses"
             android:text="Glasses"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
              />
 
         <CheckBox
@@ -198,8 +198,8 @@
             android:layout_column="1"
             android:onClick="cbMustache"
             android:text="Mustache"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
              />
 
         <CheckBox
@@ -210,8 +210,8 @@
             android:layout_column="1"
             android:onClick="cbNose"
             android:text="Nose"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
              />
 
         <CheckBox
@@ -222,8 +222,8 @@
             android:layout_column="1"
             android:onClick="cbShoes"
             android:text="Shoes"
-            android:visibility="visible"
             android:checked="false"
+            android:visibility="visible"
              />
     </GridLayout>
 
